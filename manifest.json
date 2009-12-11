@@ -13,17 +13,17 @@
 	"version": "1.0",
 	"description": "Toolbar actions for Pinboard (http://pinboard.in)",
 	"icons": {
-		"16": "pinboard16.png",
-		"32": "pinboard32.png",
-		"48": "pinboard48.png",
-		"128": "pinboard128.png" 
+		"16": "img/pinboard16.png",
+		"32": "img/pinboard32.png",
+		"48": "img/pinboard48.png",
+		"128": "img/pinboard128.png" 
 	},
 	"permissions": [
 	"tabs"
 	],
 	"browser_action": {
 		"default_title": "Pinboard Tools",
-		"default_icon": "pinboard16.png",
+		"default_icon": "img/pinboard16.png",
 		"popup": "popup.html"
 	}  
 }
