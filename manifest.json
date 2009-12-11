@@ -1,0 +1,29 @@
+{
+	"content_scripts": [
+	{
+		"js": [
+		"pinboard_content_script.js"
+		], 
+		"matches": [
+		"http://*/*"
+		]
+	}
+	], 
+	"name": "Pinboard Tools",
+	"version": "1.0",
+	"description": "Toolbar actions for Pinboard (http://pinboard.in)",
+	"icons": {
+		"16": "pinboard16.png",
+		"32": "pinboard32.png",
+		"48": "pinboard48.png",
+		"128": "pinboard128.png" 
+	},
+	"permissions": [
+	"tabs"
+	],
+	"browser_action": {
+		"default_title": "Pinboard Tools",
+		"default_icon": "pinboard16.png",
+		"popup": "popup.html"
+	}  
+}
